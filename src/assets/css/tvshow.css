@@ -1,0 +1,65 @@
+/*Moives*/
+
+#section-tvshow-list h1
+{
+    margin:16px 0;
+    padding: auto;
+    /* overflow-x: hidden;
+  overflow-y: scroll;
+  white-space: nowrap; */
+  
+    
+
+}
+/* .tvlist{
+    margin:16px 0;
+display: flex;
+flex-wrap: nowrap;
+
+font-family: "Montserrat", sans-serif;
+height: 350px;
+}​​​​​​​​ */
+
+.tvshow-card 
+{
+    /* display: inline-block;   */
+
+    overflow: hidden;
+    border: 3px dotted #000000;
+    background-color: rgb(61, 231, 223);
+    border-radius: 10px;
+    margin:10px;
+    padding: auto;
+}
+
+.tvshow-card  img 
+{
+    height:250px;
+    border: 2px dashed #a76464;
+
+}
+
+.tvshow-card:hover img
+{
+    height:300px;
+}
+.tvshowdesc{
+    display: flex;
+    flex-direction: column;
+}
+.tvshowdesc img{
+    height: 5% !important;
+    width: 50%;
+    margin: 10px;
+    align-self: center;
+    flex:1;
+}
+.tvshow-description-content-area
+{
+    flex:1;
+    margin: 10px;
+}   
+.movie-description-content-area p,h1
+{
+    color:darkblue;
+} 

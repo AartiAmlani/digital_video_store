@@ -1,0 +1,31 @@
+/* header */
+
+.headercontainer
+{
+    width: 100%;
+    height: 7%;
+    /* position:fixed; */
+    /* top:100%; */
+    background-color: #17182b;
+    z-index: 100;
+}
+.headercontainer a{
+    color:white;
+}
+.headercontainer li,ul
+{
+    display: inline-block;
+    padding:5px 32px ;
+    margin: auto;
+    color:white;
+    text-transform: capitalize;
+    font-weight:500;
+    cursor: pointer ;
+}
+.headercontainer li img{
+    width: 15% !important;
+    height: 15% !important;
+} 
+
+
+

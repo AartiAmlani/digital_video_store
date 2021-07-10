@@ -1,0 +1,307 @@
+{
+   "movies": [
+      {
+         "id": 1,
+         "title": "Aladin",
+         "poster": "aladinMovies.jpg",
+         "description": "In the movie, they often describe him as a street rat. Aladdin is portrayed as quick-witted, and ultimately a caring person. Like most Disney male protagonists, he is a heroic young man who seeks to win the affection of many other characters, which demonstrates his insecurity.",
+         "dateReleased": "Jan 2000",
+         "featured": true,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 2,
+         "title": "Artemis fowl",
+         "poster": "artemisfowlMovies.jpg",
+         "description": "It follows Holly Short, a reconnaissance officer of the Lower Elements Police (LEP), after she is kidnapped by criminal mastermind Artemis Fowl II for a large ransom of gold with the help of his bodyguard Domovoi Butler (and his younger sister Juliet Butler) in order to restore the Fowl family fortune.",
+         "dateReleased": "Jan 2001",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 3,
+         "title": "Sleeping Beauty",
+         "poster": "sleepingbeautyMovies.jpg",
+         "description": "Sleeping Beauty (French: La Belle au bois dormant), or Little Briar Rose (German: Dornröschen), also titled in English as The Sleeping Beauty in the Woods, is a classic fairy tale about a princess who is cursed to sleep for a hundred years by an evil fairy, to be awakened by a handsome prince at the end of them.",
+         "dateReleased": "Jan 2002",
+         "featured": true,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 4,
+         "title": "Toy Story 4",
+         "poster": "toystoryMovies.jpg",
+         "description": "Taking place in a world where anthropomorphic toys come to life when humans are not present, the plot focuses on the relationship between an old-fashioned pull-string cowboy doll named Woody and an astronaut action figure, Buzz Lightyear, as they evolve from rivals competing for the affections of their owner, Andy ",
+         "dateReleased": "Jan 2003",
+         "featured": true,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 5,
+         "title": "Wonder Land",
+         "poster": "wonderlandMovies.jpg",
+         "description": "John Holmes, for example, was a porn star who became addicted to cocaine, and told his dopehead friends that Eddie Nash, a nightclub owner, kept a lot of money in his house. The dopeheads broke into Nash's house and took money and jewelry. Not long after, Holmes unwisely arrived at Nash's house and was beaten until he told Nash about the dopeheads. Holmes then allegedly helped Nash's bodyguards enter the house at 8763 Wonderland Ave.",
+         "dateReleased": "Jan 2004",
+         "featured": true,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 6,
+         "title": "Black Adam",
+         "poster": "blackadamMovies.jpg",
+         "description": "Black Adam has repeatedly been described as a warrior who had proven himself to be highly skilled even before he was given the power of Shazam. He has recently acquired the power of the goddess Isis, making him stronger than ever.",
+         "dateReleased": "Jan 2005",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 7,
+         "title": "Chaos",
+         "poster": "chaosMovies.jpg",
+         "description": "a state of utter confusion or disorder; a total lack of organization or order. any confused, disorderly mass: a chaos of meaningless phrases. the infinity of space or formless matter supposed to have preceded the existence of the ordered universe.",
+         "dateReleased": "Jan 2006",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 8,
+         "title": "Luca",
+         "poster": "LucaMovies.jpg",
+         "description": "Set in a beautiful seaside town on the Italian Riviera (Liguria), Disney and Pixar's original feature film Luca is a coming-of-age story about one young boy experiencing an unforgettable summer filled with gelato, pasta, and endless scooter rides.",
+         "dateReleased": "Jan 2007",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 9,
+         "title": "MI",
+         "poster": "miMovies.jpg",
+         "description": "The plot follows Ethan Hunt (Cruise) and his mission to uncover the mole who has framed him for the murders of most of his Impossible Missions Force (IMF) team.",
+         "dateReleased": "Jan 2008",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 10,
+         "title": "Monster",
+         "poster": "monsterMovies.jpg",
+         "description": "A monster movie, monster film, creature feature or giant monster film is a film that focuses on one or more characters struggling to survive attacks by one or more antagonistic monsters, often abnormally large ones. The film may also fall under the horror, comedy, fantasy, or science fiction genres.",
+         "dateReleased": "Jan 2009",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 11,
+         "title": "New York",
+         "poster": "newyorkMovies.jpg",
+         "description": "The film stars John Abraham, Katrina Kaif, Neil Nitin Mukesh, Irrfan Khan & Nawazuddin Siddiqui, and tells a story about 3 friends studying at the fictional New York State University whose lives are changed by the September 11 attacks and its aftermath.",
+         "dateReleased": "Jan 2010",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 12,
+         "title": "Penguin",
+         "poster": "penguinMovies.jpg",
+         "description": "Penguin's story — the curious case of a missing boy — is told in flashback and is intercut with the present day Rhythm and her apparently lonely world. Early on, Rhythm narrates a tell-tale to her son Ajay, about a penguin mother's grit and tenacity in retrieving her son from the sea.",
+         "dateReleased": "Jan 2011",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 13,
+         "title": "Space Jum",
+         "poster": "spacejumMovies.jpg",
+         "description": "The film presents a fictionalized account of what happened between Jordan's initial retirement from the NBA in 1993 and his 1995 comeback, in which he is enlisted by the Looney Tunes to help them win a basketball match against a group of aliens who intend to enslave them as attractions for their theme park.",
+         "dateReleased": "Jan 2012",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 14,
+         "title": "WeRe Wolf",
+         "poster": "werewolfMovies.jpg",
+         "description": "Werewolf is a 2016 Canadian drama film directed by Ashley McKenzie and starring Andrew Gillis and Bhreagh MacNeil. ... It marks McKenzie's feature film",
+         "dateReleased": "Jan 2013",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 15,
+         "title": "Clue",
+         "poster": "clueMovies.jpg",
+         "description": "Clue is a 1985 American black comedy mystery film based on the board game Cluedo, which is ... Yvette murdered the cook and Mr. Boddy on orders from Miss Scarlet, for whom she once ",
+         "dateReleased": "Jan 2014",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      }
+
+   ],
+   "tvshows": [
+      {
+         "id": 1,
+         "title": "Hacks",
+         "poster": "hacksTv.jpg",
+         "description": "Explores a dark mentorship that forms between Deborah Vance, a legendary Las Vegas comedian, and an entitled, outcast 25-year-old.Hacks is an American comedy-drama streaming television series created by Lucia Aniello, Paul W. Downs and Jen Statsky",
+         "dateReleased": "Jan 2000",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 2,
+         "title": "Super Store",
+         "poster": "superstoreTv.jpg",
+         "description": "Superstore follows a group of employees working at Cloud 9, a fictional big-box store in St. Louis, Missouri. The ensemble and supporting cast features America Ferrera, Ben Feldman, Lauren Ash, Colton Dunn, Nico Santos, Nichole Bloom and Mark McKinney.",
+         "dateReleased": "Jan 2001",
+         "featured": true,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 3,
+         "title": "Log Line",
+         "poster": "loglineTv.jpg",
+         "description": "A log line or logline is a brief (usually one-sentence) summary of a television program, film, or book that states the central conflict of the story, often providing both a synopsis of the story's plot, and an emotional hook to stimulate interest. A one-sentence program summary in TV Guide is a log line.",
+         "dateReleased": "Jan 2002",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 4,
+         "title": "FRIENDS",
+         "poster": "friendsTv.jpg",
+         "description": "Friends is a 90's Comedy TV show, based in Manhattan, about 6 friends who go through just about every life experience imaginable together; love, marriage, divorce, children, heartbreaks, fights, new jobs and job losses and all sorts of drama.",
+         "dateReleased": "Jan 2003",
+         "featured": true,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+      {
+         "id": 5,
+         "title": "Hustler",
+         "poster": "hustlerTv.jpg",
+         "description": "The Hustler is an American television game show that airs on ABC. Hosted by Craig Ferguson, it follows five contestants who collaborate to build up a cash prize by answering a series of trivia questions. One of the contestants is secretly designated as the Hustler beforehand and given the answers to all the questions.",
+         "dateReleased": "Jan 2004",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+      },
+    {
+      "id": 6,
+      "title": "Bible",
+      "poster": "bibleTv.jpg",
+      "description": "A TV show bible, or series bible, is essentially an outline of your show, or series. Show bibles are generally broken down into several parts, including: a one page pitch of your show and logline, story engine, character breakdowns, pilot and future seasons.",
+      "dateReleased": "Jan 2005",
+      "featured": false,
+      "buy":"$14.99",
+      "rent":"3.99"
+   },
+   {
+     "id": 7,
+     "title": "Crazy Area",
+     "poster": "craztareaTv.jpg",
+     "description": "A young woman abandons a choice job at a law firm and her life in New York in an attempt to find happiness in the unlikely locale of West Covina, California.",
+     "dateReleased": "Jan 2006",
+     "featured": false,
+     "buy":"$14.99",
+     "rent":"3.99"
+  },
+  {
+    "id": 8,
+    "title": "Mash",
+    "poster": "mashTv.jpg",
+    "description": "The show is an ensemble piece revolving around key personnel in a United States Army Mobile Army Surgical Hospital (MASH) in the Korean War (1950–53). ... The 4077th MASH was one of several surgical units in Korea.",
+    "dateReleased": "Jan 2007",
+    "featured": false,
+    "buy":"$14.99",
+    "rent":"3.99"
+ },
+ {
+   "id": 9,
+   "title": "Modern Family",
+   "poster": "moderfamilyTv.jpg",
+   "description": "Premise. Modern Family revolves around three different types of families (nuclear, blended and same-sex) living in the Los Angeles area, who are interrelated through Jay Pritchett and his children, daughter Claire and son Mitchell. ... At the series finale, they adopt another child, a baby boy named Rexford.",
+   "dateReleased": "Jan 2008",
+   "featured": true,
+   "buy":"$14.99",
+   "rent":"3.99"
+},
+{
+  "id": 10,
+  "title": "Not Cosby",
+  "poster": "notcosbyTv.jpg",
+  "description": "The show focuses on an upper-class African-American family living in Brooklyn, New York. ... The Cosby Show was based on comedy routines in Cosby's stand-up comedy act, which in turn were based on his family life. The show led to the spinoff A Different World, which ran for six seasons from 1987 to 1993.",
+  "dateReleased": "Jan 2009",
+  "featured": false,
+  "buy":"$14.99",
+  "rent":"3.99"
+},
+{
+  "id": 11,
+  "title": "Odd",
+  "poster": "oddTv.jpg",
+  "description": "Welcome back to the golden days of television! Featured are comprehensive guides for some of the most popular TV shows and series from the last 6 decad",
+  "dateReleased": "Jan 2010",
+  "featured": false,
+  "buy":"$14.99",
+  "rent":"3.99"
+},
+{
+  "id": 12,
+  "title": "Seinfeld",
+  "poster": "seinfeldTv.jpg",
+  "description": "It is an American sitcom television series created by Larry David and Jerry Seinfeld. It aired on NBC from July 5, 1989, to May 14, 1998, over nine seasons and 180 episodes. ... It has been described as a show about nothing, often focusing on the minutiae of daily life.",
+  "dateReleased": "Jan 2011",
+  "featured": true,
+  "buy":"$14.99",
+  "rent":"3.99"
+},
+{
+  "id": 13,
+  "title": "Slave Jorge",
+  "poster": "slavejorgeTv.jpg",
+  "description": "A strong, struggling young woman from the Rio de Janeiro suburbs is tricked and falls victim of a Turkish web of human trafficking.",
+  "dateReleased": "Jan 2012",
+  "featured": false,
+  "buy":"$14.99",
+  "rent":"3.99"
+},
+{
+  "id": 14,
+  "title": "Wizard",
+  "poster": "wizardTv.jpg",
+  "description": "Simon McKay is a genius and inventor with dwarfism who chooses to spend his life as a philanthropist and innovative toymaker dedicated to preserving and protecting innocence. CIC agent Alex Jagger is assigned to protect Simon from the evil forces who wish to use Simon's genius for their own nefarious purposes.",
+  "dateReleased": "Jan 2013",
+         "featured": false,
+         "buy":"$14.99",
+         "rent":"3.99"
+},
+{
+  "id": 15,
+  "title": "Sharp Objects",
+  "poster": "sharpobjectsTv.jpg",
+  "description": "Premise. Crime reporter Camille Preaker, suffering from alcoholism and recently discharged from a psychiatric hospital after years of self-harming, returns to her hometown of Wind Gap, Missouri, to investigate the murders of two young girls.",
+  "dateReleased": "Jan 20014",
+  "featured": false,
+  "buy":"$14.99",
+  "rent":"3.99"
+}
+]
+}

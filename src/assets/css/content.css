@@ -1,0 +1,45 @@
+/* content */
+.contentcontainer
+{
+    padding: 10px;
+    margin:10px;
+    height: 400px;
+    display: flex;
+}
+.mainposter{
+    width: 90%;
+    padding: 10px;
+    margin:10px;
+    height: 400px;
+    float: right;
+    flex: 3;
+   }
+   .left{
+       width: 10%;
+       padding: 10px;
+       margin:10px;
+       flex: 1;
+       float: left;
+   }
+   .contentcontainer1
+{
+    padding: 10px;
+    margin:10px;
+    height: 400px;
+    display: flex;
+}
+.mainposter1{
+    width: 90%;
+    padding: 10px;
+    margin:10px;
+    height: 400px;
+    float: left;
+    flex: 3;
+   }
+   .right{
+       width: 10%;
+       padding: 10px;
+       margin:10px;
+       flex: 1;
+       float: right;
+   }
