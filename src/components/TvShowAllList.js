@@ -11,7 +11,8 @@ const TvShowAllList = () => {
 
     useEffect(() => {
 
-        fetch("http://localhost:5000/tvshows")
+        // fetch("http://localhost:5000/tvshows")
+          fetch("/tvshows")
             .then(res => res.json())
             .then((data) => {
                 setTvShows(data);

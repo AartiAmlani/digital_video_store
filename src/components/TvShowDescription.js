@@ -9,7 +9,8 @@ const TvShowDescription = ()=> {
     useEffect(()=>{
 
     console.log(id)
-     fetch("http://localhost:5000/tvshows/"+id)
+    //  fetch("http://localhost:5000/tvshows/"+id)
+     fetch("/tvshows/"+id)
      .then(res=>res.json())
      .then((tvshows)=>{
        console.log(tvshows);

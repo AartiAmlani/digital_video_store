@@ -1,4 +1,11 @@
 {
+   "posts":[
+      {
+        "id" : 0,
+        "title": "First post!",
+        "content" : "My first json content !"
+      }
+    ],
    "movies": [
       {
          "id": 1,

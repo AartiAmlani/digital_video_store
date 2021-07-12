@@ -21,7 +21,8 @@ const App = () => {
 
   useEffect(() => {
 
-    fetch("http://localhost:5000/movies")
+    // fetch("http://localhost:5000/movies")
+    fetch("/movies")
       .then(res => res.json())
       .then((data) => {
         setMovies(data);
