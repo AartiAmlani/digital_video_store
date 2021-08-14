@@ -4,7 +4,7 @@ import MovieContext from "../context/MovieContext";
 
 const MovieList = () => {
 
-    const { movies } = useContext(MovieContext);
+    const { movies,setMovies } = useContext(MovieContext);
 
     return (
 
@@ -14,7 +14,7 @@ const MovieList = () => {
                 <div className="grid grid-gap-1 grid-col-4">
 
                     {movies.map(
-                        (movie => {
+                        ((movie,index) => {
                             if (movie.featured == true)
                                 return (
                                     <Movie key={movie.id}

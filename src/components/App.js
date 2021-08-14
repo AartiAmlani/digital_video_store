@@ -20,16 +20,25 @@ const App = () => {
   const [tvshows, setTvShows] = useState([]);
 
   useEffect(() => {
-
-    // fetch("http://localhost:5000/movies")
-    fetch("/movies")
+    console.log("Inside movies"+movies);
+     fetch("http://localhost:5000/movies")
+     
+    //fetch("/movies")
       .then(res => res.json())
       .then((data) => {
-        setMovies(data);
+        setMovies((previousState) => {
+          previousState = data;
+          return previousState
+
+        });
+
+        console.log(movies);
       })
       .catch(err => console.log(`Error ${err}`));
-
   }, [])
+
+  
+
   // useEffect(() => {
 
   //   fetch("http://localhost:5001/tvshows")
@@ -46,7 +55,7 @@ const App = () => {
   return (
     <div>
       <div>
-    <MovieContext.Provider value={{movies}}>
+    <MovieContext.Provider value={{movies,setMovies}}>
       <Router>
         <Switch>
           <Route  exact path="/"><Home/></Route>
@@ -61,20 +70,7 @@ const App = () => {
       </Router>
     </MovieContext.Provider>
     </div>
-      {/* <div>
-      <Route  exact path="/"><Home/></Route>
-      
-      </div> */}
- {/* <div>
-    <TvShowContext.Provider value={{tvshows}}>
-      <Router>
-        <Switch>
-          <Route  exact path="/"><Home/></Route>
-          <Route  path="/tvshows/:id"><TvShowDecription /></Route>
-        </Switch>
-      </Router>
-    </TvShowContext.Provider>
-    </div> */}   
+        
     </div >
   )
 }

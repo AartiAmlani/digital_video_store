@@ -5,7 +5,9 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 const MovieAllList = () => {
 
-    const { movies } = useContext(MovieContext);
+    //const { movies } = useContext(MovieContext);
+    const { movies, setMovies}  = useContext(MovieContext);
+    console.log("Inside movies"+movies);
 
     return (
 
@@ -17,7 +19,7 @@ const MovieAllList = () => {
                 <div className="grid grid-gap-1 grid-col-4">
 
                     {movies.map(
-                        (movie => {
+                        ((movie ,index)=> {
                                 return (
                                     <Movie key={movie.id}
                                         id={movie.id} title={movie.title} poster={movie.poster} />)
