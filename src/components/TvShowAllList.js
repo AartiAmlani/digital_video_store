@@ -8,20 +8,27 @@ import Footer from "../components/Footer";
 
 const TvShowAllList = () => {
     const [tvshows, setTvShows] = useState([]);
+   // const { tvshows, setTvShows}  = useContext(TvShowContext);
+
 
     useEffect(() => {
 
-        // fetch("http://localhost:5000/tvshows")
-          fetch("/tvshows")
+         fetch("http://localhost:5000/tvshows")
+        //  fetch("/tvshows")
             .then(res => res.json())
-            .then((data) => {
-                setTvShows(data);
-            })
+            .then((data4) => {
+                setTvShows((previousState) => {
+                    previousState = data4;
+                    return previousState
+          
+                  });
+                  console.log("tvshowlistall  "+ tvshows[0]);
+                })
             .catch(err => console.log(`Error ${err}`));
 
     }, [])
 
-    // const { tvshows } = useContext(TvShowContext);
+    // const { tvshows } = useContext(MovieContext);
 
     return (
 
@@ -34,7 +41,7 @@ const TvShowAllList = () => {
 
 
                     {tvshows.map(
-                        (Tvshow => {
+                        ((Tvshow ,index)=> {
 
                             return (
                                 <TvShow key={Tvshow.id}

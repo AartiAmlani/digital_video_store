@@ -1,25 +1,33 @@
 import { useContext } from 'react';
 import { useEffect, useState } from 'react';
 import TvShowContext from "../context/TvShowContext";
+import MovieContext from "../context/MovieContext";
+
 // import TvShowContext from "../context/MovieContext";
 import TvShow from './TvShow';
 
 const TvShowList = () => {
     const [tvshows, setTvShows] = useState([]);
+  // const { tvshows,setTvShows } = useContext(TvShowContext);
+
 
     useEffect(() => {
 
-        fetch("/tvshows")
-        // fetch("http://localhost:5000/tvshows")
+        //fetch("/tvshows")
+         fetch("http://localhost:5000/tvshows")
           .then(res => res.json())
-          .then((data) => {
-            setTvShows(data);
-          })
+          .then((d) => {
+            setTvShows((previousState) => {
+                previousState = d;
+                return previousState
+      
+              });
+              console.log("tvshowlist  "+ tvshows[0]);
+            })
           .catch(err => console.log(`Error ${err}`));
     
       }, [])
 
-   // const { tvshows } = useContext(TvShowContext);
 
     return (
 
@@ -32,7 +40,7 @@ const TvShowList = () => {
 
 
                     {tvshows.map(
-                       ( Tvshow =>{
+                       ( (Tvshow,index) =>{
                            if(Tvshow.featured == true)
                         return (
                         <TvShow key={Tvshow.id} 
@@ -41,7 +49,7 @@ const TvShowList = () => {
                     )}
 
                 </div>
-            </div>
+               </div>
 
         </section>
 
